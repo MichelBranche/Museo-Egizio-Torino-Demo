@@ -1,0 +1,24 @@
+import React from 'react';
+
+/** Logo vettoriale (svgviewer-output): colore via `className` es. `text-oro`, `text-white`, `text-inchiostro`. */
+export default function MuseoLogo({ className = '', title, ...rest }) {
+  /**
+   * ViewBox ristretto: export originale ~690×114 con canvas largo; il glyph arriva ~fino a x≈213.
+   * Senza crop il “centro” del box è spostato a destra rispetto al segno visibile.
+   */
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 222 114.433"
+      preserveAspectRatio="xMidYMid meet"
+      className={`block shrink-0 ${className}`}
+      fill="currentColor"
+      role={title ? 'img' : 'presentation'}
+      aria-hidden={title ? undefined : true}
+      {...rest}
+    >
+      {title ? <title>{title}</title> : null}
+      <path d="M6.78 114.433c-.87 0-1.76-.17-2.62-.53a6.774 6.774 0 0 1-3.63-8.87l38.46-91.8a6.801 6.801 0 0 1 7.23-4.09c3.06.45 5.43 2.92 5.75 5.99l7.22 68.32 36.04-72.85a6.803 6.803 0 0 1 7.21-3.68 6.78 6.78 0 0 1 5.59 5.85l10.92 87.88 62.33-.19-51.89-22.33a6.787 6.787 0 0 1-4.05-7.02 6.77 6.77 0 0 1 5.57-5.88l58.79-10.2-63.23-32.68a6.776 6.776 0 0 1-3.55-7.25 6.793 6.793 0 0 1 5.9-5.51L213.3.043a6.774 6.774 0 0 1 7.49 5.97 6.769 6.769 0 0 1-5.97 7.49l-62.3 7.05 61.3 31.68a6.79 6.79 0 0 1 3.59 7.05 6.774 6.774 0 0 1-5.54 5.65l-56.2 9.75 60.94 26.23a6.776 6.776 0 0 1-2.66 13l-100.97.31h-.02c-3.42 0-6.3-2.55-6.72-5.94l-8.88-71.43-36.38 73.54c-1.34 2.7-4.3 4.2-7.27 3.66a6.782 6.782 0 0 1-5.55-5.96l-6.9-65.27-28.24 67.42a6.719 6.719 0 0 1-6.24 4.19" />
+    </svg>
+  );
+}
