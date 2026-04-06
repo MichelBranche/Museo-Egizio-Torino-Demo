@@ -7,7 +7,7 @@ Interfaccia web **dimostrativa** ispirata al [Museo Egizio di Torino](https://ww
 
 ## Anteprima
 
-![Anteprima](docs/preview.png)
+![Anteprima](./preview.png)
 
 ---
 
