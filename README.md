@@ -7,7 +7,7 @@ Interfaccia web **dimostrativa** ispirata al [Museo Egizio di Torino](https://ww
 
 ## Anteprima
 
-> Aggiungi qui uno screenshot (`docs/preview.png`) e sostituisci il commento con `![Anteprima](docs/preview.png)` quando pubblichi su GitHub.
+![Anteprima](docs/preview.png)
 
 ---
 
