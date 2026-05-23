@@ -132,7 +132,7 @@ Design / sviluppo front-end: [Michel Branche](https://devmichelbranche.vercel.ap
 
 ---
 
-## Licenza
+## License
 
-Il codice di questo repository è messo a disposizione per **portfolio e dimostrazione**.  
-Testi, marchi e riferimenti al Museo Egizio restano di competenza dei rispettivi titolari; le immagini e i contenuti istituzionali vanno verificati prima di un uso pubblico non dimostrativo.
+This project is proprietary and protected by copyright.
+Unauthorized use, reproduction, or distribution is prohibited.
